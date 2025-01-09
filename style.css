@@ -8,6 +8,7 @@ body {
 html{
   scroll-behavior: smooth;
   overflow-x: hidden;
+  height: 100%;
 }
 
 p {
@@ -460,11 +461,14 @@ ul {
   display: none;
 }
 
+
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .home-body {
     background: url("assets/home/background-home-tablet.jpg") no-repeat center
-      center/cover;
-      height: 100%;
+      center / cover;
+      
+      min-height: 100%;
   }
 
   .crew-body{
