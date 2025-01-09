@@ -461,9 +461,29 @@ ul {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  body {
+  .home-body {
     background: url("assets/home/background-home-tablet.jpg") no-repeat center
       center/cover;
+      height: 100%;
+  }
+
+  .crew-body{
+    background: url("assets/crew/background-crew-tablet.jpg") no-repeat center
+      center / cover; 
+      height: 100%;
+
+  }
+
+  .destination-body{
+    background: url("assets/destination/background-destination-tablet.jpg") no-repeat center
+      center / cover;
+      height: 100%;
+  }
+
+  .technology-body{
+    background: url("assets/technology/background-technology-tablet.jpg") no-repeat center
+      center / cover;
+      height: 100%;
   }
 
   .container {
@@ -638,12 +658,13 @@ ul {
   .home-body {
     background: url("assets/home/background-home-mobile.jpg") no-repeat center
       center / cover;
-      height: 100vh;
+      height: 100%;
   }
 
   .crew-body{
     background: url("assets/crew/background-crew-mobile.jpg") no-repeat center
-      center / cover;
+      center / cover; 
+
   }
 
   .destination-body{
